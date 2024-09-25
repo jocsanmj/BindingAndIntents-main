@@ -24,47 +24,27 @@ Este repositorio contiene ejemplos de cómo utilizar el **Data Binding** para si
 ### 4. **Funcionalidades de Llamadas y Navegación Web**
 - Incluye un campo `EditText` donde el usuario puede introducir un número de teléfono para realizar una llamada. De forma similar, se ha implementado un botón para abrir una URL introducida por el usuario en el navegador del dispositivo.
 
----
-
-## 🚀 Funciones Adicionales
-
-### 1. **Enviar Correos Electrónicos**
+### 5. **Enviar Correos Electrónicos**
 - Utiliza un **Intent** implícito para abrir el cliente de correo y enviar un mensaje predefinido.
 
-### 2. **Compartir Imágenes**
+### 6. **Compartir Imágenes**
 - Un botón permite compartir la imagen mostrada en un `ImageView` a través de otras aplicaciones que soporten el formato de imagen.
 
-### 3. **Acceso a la Ubicación Actual**
+### 7. **Acceso a la Ubicación Actual**
 - A través de un **Intent**, se lanza una aplicación de mapas que muestra la ubicación actual del dispositivo.
 
-### 4. **Acceso Directo a Configuraciones del Dispositivo**
+### 8. **Acceso Directo a Configuraciones del Dispositivo**
 - Utiliza un **Intent** para llevar al usuario a la pantalla de configuración del dispositivo.
 
-### 5. **Reproducción de Videos de YouTube**
+### 9. **Reproducción de Videos de YouTube**
 - Permite al usuario ingresar un ID de video de YouTube en un campo `EditText`, y luego abrir la app de YouTube para reproducirlo automáticamente.
 
----
-
-## 📱 Requisitos del Sistema
-
-- **Versión Mínima de Android**: Nougat 7.1.1 (API Level 25)
-- **IDE**: Android Studio Koala 2024.1.1 Patch 1
-
----
 
 ## 🔗 Enlace de Descarga
 
 Puedes descargar el APK del proyecto a través del siguiente enlace:
 
 **[Descargar la APK](https://drive.google.com/file/d/1FJYYLecCz7UsCyiYW9JlZGLI9opkYpRj/view?usp=drive_link)**
-
----
-
-## 🔧 Herramientas y Tecnologías Utilizadas
-
-- **Lenguaje**: Kotlin
-- **API Level**: 25 (Nougat 7.1.1)
-- **Android Studio**: Koala 2024.1.1 Patch 1
 
 ---
 
