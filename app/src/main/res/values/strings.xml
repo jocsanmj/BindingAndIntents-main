@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BindingAndIntents</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="men_de_actividades">Menú de actividades</string>
+    <string name="compartir_un_mensaje">Compartir un mensaje</string>
+    <string name="compartir">Compartir</string>
+    <string name="call_center">Call Center</string>
+    <string name="realizar_llamadas">Realizar Llamadas</string>
+    <string name="favor_ingrese_el_n_mero_de_tel_fono">Favor ingrese el número de teléfono</string>
+    <string name="llamar">Llamar</string>
+    <string name="abrir_sitio_web">Abrir sitio web</string>
+    <string name="ingresar_la_url">Ingresar la URL</string>
+    <string name="busqueda">Busqueda</string>
+    <string name="enviar_un_correo">Enviar un correo</string>
+    <string name="compartir_imagen">Compartir Imagen</string>
+    <string name="obtener_su_ubicaci_n">Obtener su Ubicación</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="ingrese_el_id_del_video_de_youtube">Ingrese el ID del video de YouTube</string>
+    <string name="redirigir">Redirigir</string>
+</resources>
