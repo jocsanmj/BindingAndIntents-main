@@ -37,9 +37,9 @@ class SecondActivity : AppCompatActivity() {
                 makePhoneCall()
             } else {
                 if (shouldShowRequestPermissionRationale(Manifest.permission.CALL_PHONE)) {
-                    Toast.makeText(this, "El permiso es necesario para hacer llamadas.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Necesitas un permiso para realizar llamadas.", Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(this, "Permiso denegado permanentemente. Habilítalo en la configuración.", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Permiso denegado permanentemente. Favor, Habilítalo en la configuración.", Toast.LENGTH_LONG).show()
                     val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
                         data = Uri.fromParts("package", packageName, null)
                     }
@@ -79,7 +79,7 @@ class SecondActivity : AppCompatActivity() {
                     callPermissionLauncher.launch(Manifest.permission.CALL_PHONE)
                 }
             } else {
-                Toast.makeText(this, "Favor, ingrese un número de teléfono.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Favor de ingresar un número de teléfono.", Toast.LENGTH_SHORT).show()
             }
         }
         // 5. Open a web page with URL  + chatcito
@@ -90,7 +90,7 @@ class SecondActivity : AppCompatActivity() {
                 webIntent.data = Uri.parse(if (url.startsWith("http://") || url.startsWith("https://")) url else "http://$url")
                 startActivity(webIntent)
             } else {
-                Toast.makeText(this, "Favor, ingrese una URL válida.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "La URL no es valida, favor intentelo de nuevo.", Toast.LENGTH_SHORT).show()
             }
         }
         // 6. Send an e-mail + chatcito
@@ -124,7 +124,7 @@ class SecondActivity : AppCompatActivity() {
                     Toast.makeText(this, "Error al compartir la imagen.", Toast.LENGTH_SHORT).show()
                 }
             } else {
-                Toast.makeText(this, "No hay imagen para compartir.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "No se ha encontrado ninguna imagen para compartir.", Toast.LENGTH_SHORT).show()
             }
         }
         // 8. Get device location using Google Maps + chatcito
@@ -159,7 +159,7 @@ class SecondActivity : AppCompatActivity() {
                 val youtubeIntent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
                 startActivity(youtubeIntent)
             } else {
-                Toast.makeText(this, "Por favor, ingrese un ID de video de YouTube.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Ingrese un ID de video de YouTube.", Toast.LENGTH_SHORT).show()
             }
         }
     }
